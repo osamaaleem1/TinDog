@@ -88,3 +88,6 @@ body{
 .cr-padded-item{
     padding: 7% 15%;
 }
+.card{
+ text-align: center;   
+}
