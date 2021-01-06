@@ -107,7 +107,7 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
-#cta{
+#cta {
   background-color: #ff4c68;
   text-align: center;
   color: #fff;
@@ -119,15 +119,15 @@ h3 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
-#footer{
+#footer {
   text-align: center;
   padding: 5% 10%;
   background-color: #fff;
 }
-#footer span{
+#footer span {
   margin: 5px 10px;
 }
-.end-note{
+.end-note {
   color: #8f8f8f;
   margin-top: 2rem;
   margin-bottom: 0px;
