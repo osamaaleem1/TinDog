@@ -5,11 +5,7 @@ body {
 #title {
   background-color: #ff4c68;
 }
-@media (max-width: 900px) {
-  #title {
-    background-color: #8f8f8f;
-  }
-}
+
 .row h1 {
   font-family: Montserrat, sans-serif;
   font-size: 3.5rem;
@@ -37,11 +33,15 @@ body {
 .download-button {
   margin: 4% 2% 4% 0;
 }
+.iphone-img{
+  position: relative;
+  width: 50%;
+}
 .title-img {
-  width: 21%;
+  width: 60%;
   transform: rotate(25deg);
   position: absolute;
-  right: 25%;
+  right: 30%;
 }
 #features {
   padding: 7% 15%;
@@ -131,4 +131,21 @@ h3 {
   color: #8f8f8f;
   margin-top: 2rem;
   margin-bottom: 0px;
+}
+@media (max-width: 900px) {
+  
+  #title{
+    text-align: center;
+  }
+  
+  .iphone-img{
+    margin-top: 10%;
+    position: static;
+    width: 100%;
+  }
+  .title-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
 }
