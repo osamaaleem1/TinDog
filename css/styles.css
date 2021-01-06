@@ -5,6 +5,11 @@ body {
 #title {
   background-color: #ff4c68;
 }
+@media (max-width: 900px) {
+  #title {
+    background-color: #8f8f8f;
+  }
+}
 .row h1 {
   font-family: Montserrat, sans-serif;
   font-size: 3.5rem;
@@ -101,4 +106,29 @@ h3 {
 }
 .pricing-column {
   padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 7% 15%;
+}
+#cta h3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  text-align: center;
+  padding: 5% 10%;
+  background-color: #fff;
+}
+#footer span{
+  margin: 5px 10px;
+}
+.end-note{
+  color: #8f8f8f;
+  margin-top: 2rem;
+  margin-bottom: 0px;
 }
